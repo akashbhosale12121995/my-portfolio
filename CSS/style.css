@@ -1,0 +1,33 @@
+
+
+html, body {
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+.blogItem h3 {
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #11132f;
+
+}
+
+.blogItem  #publishdate {
+
+   
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #202344;
+}
+
+.blogItem  .cityName {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #4f516f;
+}
+
