@@ -125,3 +125,82 @@ header nav ul li a{
   border-radius: 2500%;
     
   }
+
+  .postSection {
+
+    background-color: #d5e9ef;
+
+    padding: 32px 0;
+  }
+
+  .postSectionInner {
+    max-width: 960px;
+    margin: 0 auto;
+
+  }
+
+  .postSection .postHeader h2 {
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243d;
+
+
+  }
+
+  .postSection .postHeader{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .postSection .postHeader a {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+    text-decoration: none;
+    
+
+
+  }
+
+ .postSection .posts{
+
+    display: flex;
+    gap:20px;
+ }
+
+ .posts .postItem{
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 4px;
+    padding: 24px;
+
+ }
+
+ .posts .postItem header{
+
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 38px;
+   color: #21243d;
+   margin-bottom: 16px;
+    
+ }
+
+ .posts .postItem .meta{
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    display: flex;
+    gap: 26px;
+    align-items: center;
+ }
