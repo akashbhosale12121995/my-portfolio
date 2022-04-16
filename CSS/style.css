@@ -1,32 +1,127 @@
 
 
 html, body {
+
     font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+ 
+}
+
+
+header nav{
+
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+   justify-content: flex-end;
+   padding-right: 60px;
+}
+
+header nav ul{
+
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    
+    
+
+}
+
+header nav ul li{
+
+   list-style: none;
+   
     
 }
 
-.blogItem h3 {
+header nav ul li a{
 
+    text-decoration: none;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 44px;
-    color: #11132f;
-
-}
-
-.blogItem  #publishdate {
-
-    font-weight: 400;
     font-size: 20px;
     line-height: 29px;
-    color: #202344;
-}
+    text-align: right;
+    color: black;
+    
+     
+ }
 
-.blogItem  .cityName {
+  /*Hero Secion Styling*/
 
+  .heroSection{
+
+    background-color: #fff;
+    padding: 158px 0;
+  
+  }
+
+  h1, p, h2, h3, h4 {
+
+    margin: 0;
+
+  }
+
+  .heroSection .heroInner{
+
+        max-width: 960px;
+        margin: 0 auto;
+        
+        display: flex;
+        align-items: center;
+
+  }
+
+  .heroSection .heroInner .col-left{
+
+        max-width: 497px;
+  }
+
+  .heroSection .heroInner .col-left p{
+
+    margin-top: 40px;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    color: #4f516f;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243d;
+
 }
 
+.heroSection .heroInner .col-left .actionButton{
+
+    margin-top: 38px;
+    width: 208px;
+    background-color: #ff6464;
+    border-radius: 2px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    max-width: fit-content;
+    font-weight: 20px;
+    line-height: 29px;
+    color: #fff;
+    
+    
+   
+    
+}
+
+
+  .heroSection .heroInner .col-right{
+
+    flex: 1;
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+  }
+
+  .heroSection .heroInner .col-right img{
+
+  border-radius: 2500%;
+    
+  }
