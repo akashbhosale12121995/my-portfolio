@@ -1,0 +1,80 @@
+
+
+html, body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+ 
+}
+/*   
+.blogItem h3 {
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #11132f;
+
+}
+
+.blogItem  #publishdate {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #202344;
+}
+
+.blogItem  .cityName {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #4f516f;
+}
+
+#clickOnMe {
+    background-color: yellow;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   /* border: 1px solid red;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+  
+}
+
+
+*/
+.card{
+
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 60px;
+    padding:30px;
+    border-radius: 8px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.card .cardTitle{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card .cardBody div:nth-child(1){
+
+    font-weight: bold;
+
+}
+
+.card .cardBody div:nth-child(2),
+.card .cardBody div:nth-child(3){
+
+    color: #666;
+
+}
