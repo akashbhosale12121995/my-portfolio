@@ -71,6 +71,7 @@ header nav ul li a{
         
         display: flex;
         align-items: center;
+       
 
   }
 
@@ -134,7 +135,7 @@ header nav ul li a{
   }
 
   .postSectionInner {
-    max-width: 960px;
+    max-width: 960px; 
     margin: 0 auto;
 
   }
@@ -203,4 +204,129 @@ header nav ul li a{
     display: flex;
     gap: 26px;
     align-items: center;
+    margin-bottom: 20px;
  }
+
+
+ .posts .postItem p {
+
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+
+ }
+
+ .featuredSectionInner{
+
+  max-width: 960px; 
+  margin: 0 auto;
+
+ }
+
+ .featuredSection{
+
+  background-color: #fff;
+
+  padding: 32px 0;
+
+ }
+
+  /*Featured Secion Styling*/
+
+  .featuredSection .featuredSectionHeader h2 {
+
+    font-weight: 400;
+    font-size: 22px;
+    
+    line-height: 60px;
+    color: #21243d;
+    margin-bottom: 22px;
+
+
+
+  }
+
+  .fsList .fsItem {
+
+    display: flex;
+    gap: 18px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 16px;
+    margin-bottom: 31px;
+  }
+
+  .fsList .fsItem .fsItemRight h3{
+
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+color: #21243D;
+margin-bottom: 16px;
+  }
+
+  .fsItemMeta {
+
+    display: flex;
+    gap:26px;
+    align-items: center;
+  }
+
+  .fsItemMeta .badge {
+    background-color: #142850;
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    
+    color: #ffff  ;
+  }
+
+
+  .fsItem .fsItemMeta .category{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695a4;
+  }
+
+  .fsItem .discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-top: 16px ;
+  }
+  
+
+  @media all and (max-width: 600px) {
+    header nav {
+      background-color: white;
+
+    }
+    .heroSection .heroInner{
+      flex-direction:column-reverse ;
+    }
+    .heroSection .col-right{
+
+      margin-bottom: 30px;
+    }
+
+    .heroSection .col-left{
+
+      text-align: center;
+      margin: 0 20px;
+     
+    }
+
+    .heroSection .col-left .actionButton{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+
+
+  }
+
