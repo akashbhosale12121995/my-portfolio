@@ -1,332 +1,336 @@
+html,
+body {
 
-
-html, body {
-
-    font-family: 'Heebo', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #e5e5e5;
- 
-}
-
-
-header nav{
-
-    height: 50px;
-    background-color: #fff;
-    display: flex;
-   justify-content: flex-end;
-   padding-right: 60px;
-}
-
-header nav ul{
-
-    margin: 0px;
-    display: flex;
-    align-items: center;
-    gap: 33px;
-    
-    
+  font-family: 'Heebo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
 
 }
 
-header nav ul li{
 
-   list-style: none;
-   
-    
+header nav {
+
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
 }
 
-header nav ul li a{
+header nav ul {
 
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
-    text-align: right;
-    color: black;
-    
-     
- }
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 33px;
 
-  /*Hero Secion Styling*/
 
-  .heroSection{
-
-    background-color: #fff;
-    padding: 158px 0;
-  
-  }
-
-  h1, p, h2, h3, h4 {
-
-    margin: 0;
-
-  }
-
-  .heroSection .heroInner{
-
-        max-width: 960px;
-        margin: 0 auto;
-        
-        display: flex;
-        align-items: center;
-       
-
-  }
-
-  .heroSection .heroInner .col-left{
-
-        max-width: 497px;
-  }
-
-  .heroSection .heroInner .col-left p{
-
-    margin-top: 40px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #21243d;
 
 }
 
-.heroSection .heroInner .col-left .actionButton{
+header nav ul li {
 
-    margin-top: 38px;
-    width: 208px;
-    background-color: #ff6464;
-    border-radius: 2px;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    max-width: fit-content;
-    font-weight: 20px;
-    line-height: 29px;
-    color: #fff;
-    
-    
-   
-    
+  list-style: none;
+
+
 }
 
+header nav ul li a {
 
-  .heroSection .heroInner .col-right{
-
-    flex: 1;
-    display: flex;
-
-    justify-content: flex-end;
-    align-items: center;
-    
-    
-  }
-
-  .heroSection .heroInner .col-right img{
-
-  border-radius: 2500%;
-    
-  }
-
-  .postSection {
-
-    background-color: #d5e9ef;
-
-    padding: 32px 0;
-  }
-
-  .postSectionInner {
-    max-width: 960px; 
-    margin: 0 auto;
-
-  }
-
-  .postSection .postHeader h2 {
-
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 60px;
-    color: #21243d;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: black;
 
 
-  }
+}
 
-  .postSection .postHeader{
+/*Hero Secion Styling*/
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.heroSection {
 
-  .postSection .postHeader a {
+  background-color: #fff;
+  padding: 158px 0;
 
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: right;
-    color: #00A8CC;
-    text-decoration: none;
-    
+}
 
+h1,
+p,
+h2,
+h3,
+h4 {
 
-  }
+  margin: 0;
 
- .postSection .posts{
+}
 
-    display: flex;
-    gap:20px;
- }
+.heroSection .heroInner {
 
- .posts .postItem{
-
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    border-radius: 4px;
-    padding: 24px;
-
- }
-
- .posts .postItem header{
-
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 38px;
-   color: #21243d;
-   margin-bottom: 16px;
-    
- }
-
- .posts .postItem .meta{
-
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-    color: #21243D;
-    display: flex;
-    gap: 26px;
-    align-items: center;
-    margin-bottom: 20px;
- }
-
-
- .posts .postItem p {
-
-  font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #21243D;
-
- }
-
- .featuredSectionInner{
-
-  max-width: 960px; 
+  max-width: 960px;
   margin: 0 auto;
 
- }
+  display: flex;
+  align-items: center;
 
- .featuredSection{
+
+}
+
+.heroSection .heroInner .col-left {
+
+  max-width: 497px;
+}
+
+.heroSection .heroInner .col-left p {
+
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+
+}
+
+.heroSection .heroInner .col-left .actionButton {
+
+  margin-top: 38px;
+  width: 208px;
+  background-color: #ff6464;
+  border-radius: 2px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  max-width: fit-content;
+  font-weight: 20px;
+  line-height: 29px;
+  color: #fff;
+
+
+
+
+}
+
+
+.heroSection .heroInner .col-right {
+
+  flex: 1;
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+
+.heroSection .heroInner .col-right img {
+
+  border-radius: 2500%;
+
+}
+
+.postSection {
+
+  background-color: #d5e9ef;
+
+  padding: 32px 0;
+}
+
+.postSectionInner {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+.postSection .postHeader h2 {
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+
+
+}
+
+.postSection .postHeader {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postSection .postHeader a {
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #00A8CC;
+  text-decoration: none;
+
+
+
+}
+
+.postSection .posts {
+
+  display: flex;
+  gap: 20px;
+}
+
+.posts .postItem {
+
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border-radius: 4px;
+  padding: 24px;
+
+}
+
+.posts .postItem header {
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243d;
+  margin-bottom: 16px;
+
+}
+
+.posts .postItem .meta {
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+  display: flex;
+  gap: 26px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.posts .postItem p {
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+
+}
+
+.featuredSectionInner {
+
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+.featuredSection {
 
   background-color: #fff;
 
   padding: 32px 0;
 
- }
+}
 
-  /*Featured Secion Styling*/
+/*Featured Secion Styling*/
 
-  .featuredSection .featuredSectionHeader h2 {
+.featuredSection .featuredSectionHeader h2 {
 
-    font-weight: 400;
-    font-size: 22px;
-    
-    line-height: 60px;
-    color: #21243d;
-    margin-bottom: 22px;
+  font-weight: 400;
+  font-size: 22px;
+
+  line-height: 60px;
+  color: #21243d;
+  margin-bottom: 22px;
 
 
+
+}
+
+.fsList .fsItem {
+
+  display: flex;
+  gap: 18px;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 16px;
+  margin-bottom: 31px;
+}
+
+.fsList .fsItem .fsItemRight h3 {
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+  margin-bottom: 16px;
+}
+
+.fsItemMeta {
+
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.fsItemMeta .badge {
+  background-color: #142850;
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+
+  color: rgb(209, 158, 158);
+}
+
+
+.fsItem .fsItemMeta .category {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+
+.fsItem .discription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  margin-top: 16px;
+}
+
+
+@media all and (max-width: 600px) {
+  header nav {
+    background-color: white;
 
   }
 
-  .fsList .fsItem {
-
-    display: flex;
-    gap: 18px;
-    border-bottom: 1px solid #E0E0E0;
-    padding-bottom: 16px;
-    margin-bottom: 31px;
+  .heroSection .heroInner {
+    flex-direction: column-reverse;
   }
 
-  .fsList .fsItem .fsItemRight h3{
+  .heroSection .col-right {git remote add origin
 
-font-weight: 700;
-font-size: 30px;
-line-height: 44px;
-color: #21243D;
-margin-bottom: 16px;
+    margin-bottom: 30px;
   }
 
-  .fsItemMeta {
+  .heroSection .col-left {
 
-    display: flex;
-    gap:26px;
-    align-items: center;
-  }
-
-  .fsItemMeta .badge {
-    background-color: #142850;
-    width: 62px;
-    height: 25px;
-    border-radius: 16px;
-    font-weight: 900;
-    font-size: 18px;
     text-align: center;
-    
-    color: #ffff  ;
-  }
-
-
-  .fsItem .fsItemMeta .category{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    color: #8695a4;
-  }
-
-  .fsItem .discription {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #21243D;
-    margin-top: 16px ;
-  }
-  
-
-  @media all and (max-width: 600px) {
-    header nav {
-      background-color: white;
-
-    }
-    .heroSection .heroInner{
-      flex-direction:column-reverse ;
-    }
-    .heroSection .col-right{
-
-      margin-bottom: 30px;
-    }
-
-    .heroSection .col-left{
-
-      text-align: center;
-      margin: 0 20px;
-     
-    }
-
-    .heroSection .col-left .actionButton{
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-
+    margin: 0 20px;
 
   }
 
+  .heroSection .col-left .actionButton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+}
